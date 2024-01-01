@@ -44,6 +44,16 @@ Author URL: http://w3layouts.com
 *::after {
   box-sizing: border-box; }
 
+/*Added for logo container*/
+.logo-container {
+  display: flex;
+  align-items: center;
+} 
+
+.logo-container span {
+   margin-left: 10px; /* Adjust the value as needed */
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -3147,7 +3157,9 @@ input[type="button"].btn-block {
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem; 
+  margin-right: 0%; /* Adjust the value as needed */
+  }
   .navbar-toggler:hover, .navbar-toggler:focus {
     text-decoration: none; }
 
